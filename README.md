@@ -11,7 +11,7 @@ This is a photo collage app developed using jQuery and jQuery UI widgets. It has
 <li>Delete: When an image is selected, pressing the "Delete" key on the keyboard would remove it.</li>
 </ul>
 
-Package manager used: Bower
+Package manager used: Bower <br>
 Task runner for automating the build used: Gulp
 
 Download the zip and Enjoy!!
