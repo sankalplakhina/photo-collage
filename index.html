@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Photo Collage App</title>
+    
+    <link rel="shortcut icon" href="app/img/favicon.jpg">
+
+    <!-- Build CSS -->
+    <link href="build/css/app.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    
+    <!-- container -->
+    <div class="container-custom ui-widget ui-helper-clearfix">
+        
+        <!-- Workspace row -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="workspace" class="ui-widget-content ui-state-default">
+                    <h4 class="ui-widget-header">Workspace</h4>
+                </div>
+            </div>
+        </div><!-- /Workspace row -->
+        
+        <!-- Image Gallery row -->
+        <div class="row">
+            
+            <!-- Thumbnail View Gallery -->
+            <div class="col-md-7">
+                <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+                    <li class="ui-widget-content ui-corner-tr">
+
+                        <img src="app/img/high_tatras.jpg" alt="The peaks of High Tatras" width="96" height="72">
+                        
+                    </li>
+                    <li class="ui-widget-content ui-corner-tr">
+
+                        <img src="app/img/high_tatras2.jpg" alt="The chalet at the Green mountain lake" width="96" height="72">
+                        
+                    </li>
+                    <li class="ui-widget-content ui-corner-tr">
+
+                        <img src="app/img/high_tatras3.jpg" alt="Planning the ascent" width="96" height="72">
+                       
+                    </li>
+                    <li class="ui-widget-content ui-corner-tr">
+
+                        <img src="app/img/high_tatras4.jpg" alt="On top of Kozi kopka" width="96" height="72">
+                        
+                    </li>
+                    <li class="ui-widget-content ui-corner-tr">
+
+                        <img src="app/img/high_tatras.jpg" alt="On top of Kozi kopka" width="96" height="72">
+                        
+                    </li>
+                    <li class="ui-widget-content ui-corner-tr">
+                        
+                        <img src="app/img/high_tatras2.jpg" alt="On top of Kozi kopka" width="96" height="72">
+                        
+                    </li>
+                </ul>
+            </div> <!-- /Thumbnail View Gallery -->
+            
+            <!-- Upload area -->
+            <div class="col-md-5">
+                <div class="upload-container">
+                    <div>
+                        <label for="fileselect" class="hide"><h3>Upload Images here</h3></label>
+                        <input class="hide" type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+                        <div id="filedrag" style="height:119px;"><h4>Drop your images here!</h4></div>
+                    </div>
+                    <div id="submitbutton">
+                        <button type="submit">Upload Files</button>
+                    </div>
+                </div>
+            </div> <!-- /Upload area -->
+            
+        </div><!-- /Image Gallery row -->
+    </div> <!-- /container -->
+
+    <!-- Build CSS -->
+    <script src="build/js/app.min.js"></script>
+
+</body>
+
+</html>

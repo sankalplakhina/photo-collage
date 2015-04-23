@@ -1,0 +1,34 @@
+{
+  "name": "photo-collage-app",
+  "version": "1.0.0",
+  "authors": [
+    "Sankalp Lakhina <sankalp.lakhina91@gmail.com>"
+  ],
+  "description": "An app that will allow you to develop your own photo collage",
+  "main": "index.html",
+  "keywords": [
+    "photo",
+    "collage",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.4",
+    "respond": "~1.4.2",
+    "jquery-ui": "~1.11.4",
+    "jquery-ui-rotatable": "*"
+  },
+  "devDependencies": {
+    "html5shiv": "~3.7.2"
+  }
+}

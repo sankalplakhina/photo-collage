@@ -1,0 +1,142 @@
+/*
+app.css - photo-collage-app
+Wingify Assignment
+Developed by Sankalp Lakhina [ sankalp.lakhina91@gmail.com ]
+*/
+body {    
+    font-family: "Segoe UI", Tahoma, Helvetica, freesans, sans-serif;
+	font-size: 90%;
+	margin: 10px;
+	color: #333;
+	background-color: #fff;
+}
+
+#filedrag {
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em 0;
+	margin: 1em 0;
+	color: #555;
+	border: 2px dashed #555;
+	border-radius: 7px;
+	cursor: default;
+}
+
+#filedrag.hover {
+	color: #06d806;
+	border-color: #06d806;
+	border-style: solid;
+	box-shadow: inset 0 3px 4px #888;
+}
+
+img {
+	max-width: 100%;
+}
+
+.ui-selecting { 
+    background: #FECA40; 
+}
+
+.ui-selected { 
+    border: 2px dashed #89a9ff; background: #fff; color: white; 
+}
+
+#workspace {
+    height: 45em;
+    max-height: 55em;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+	background:#f8f8f8;
+}
+
+#workspace h4 {
+  line-height: 30px; 
+  margin: 0 0 0.4em;
+  padding:10px;
+  background:#e4e4e4;
+  border:1px solid #e4e4e4; 
+}
+
+#gallery {
+      min-height: 100px;
+      padding: 15px;
+      border: 1px solid #efefef;
+      border-radius: 5px;
+}
+
+.gallery li {
+    float: left; 
+    width: 96px; 
+    padding: 0.4em; 
+    margin: 0 0.4em 0.4em 0; 
+    text-align: center;
+}
+.gallery li img { 
+    width: 100%; 
+    cursor: move;
+	border:1px solid #e4e4e4;
+	padding:3px;
+}
+
+.upload-container {
+    min-height: 171px;
+    padding: 15px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+
+.container-custom {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wrapper-div {
+    position:absolute;
+    display:inline-block;
+    width: 200px;
+	border:1px solid #ddd;
+	padding:4px;
+	background:#fff;
+}
+
+.wrapper-div img{
+    cursor:move;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.ui-widget-content {
+    border: 0px;
+}
+
+.ui-wrapper {
+    overflow:visible !important;
+}
+	
+.ui-resizable-handle {
+	background: #89a9ff;
+	border: 1px solid #FFF;	
+	z-index: 2;
+}
+	
+.ui-rotatable-handle {
+	background: #89a9ff;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	cursor: pointer;	
+	height: 10px;
+	left: 50%;
+	margin: 0 0 0 -5px;
+	position: absolute;
+	top: -5px;
+	width: 10px;
+}
+	
+.ui-rotatable-handle.clone {
+    visibility: hidden;
+}
